@@ -14,7 +14,7 @@
 <template>
     <ClientOnly>
         <div class="flex justify-end">
-            <UPopover mode="hover" class="m-5 w-8 h-8">
+            <UPopover mode="hover" class="w-8 h-8">
                 <UButton icon="i-heroicons-paint-brush-20-solid"/>
                 <template #panel>
                     <div class="grid grid-cols-3">

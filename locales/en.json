@@ -1,0 +1,24 @@
+{
+  "roles": {
+    "specialist": {
+      "title": "Specialist",
+      "descriptions": [
+        "Advise our customers on product selection and solve their technical problems",
+        "Optimized the team’sWorkflow with an Apple Shortcut",
+        "Trained new employees,e.g. through role-playing customer scenarios",
+        "Pursued additional skills through Coursera courses,e.g. Pricing"
+      ],
+      "timespan": "02 2024 - today"
+    }
+  },
+  "specialist": {
+    "title": "Specialist",
+    "descriptions": [
+      "Advise our customers on product selection and solve their technical problems",
+      "Optimized the team’sWorkflow with an Apple Shortcut",
+      "Trained new employees,e.g. through role-playing customer scenarios",
+      "Pursued additional skills through Coursera courses,e.g. Pricing"
+    ],
+    "timespan": "02 2024 - today"
+  }
+}

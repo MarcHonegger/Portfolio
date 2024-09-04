@@ -15,11 +15,10 @@
       </div>
     <div class="flex w-screen justify-center">
         <div class="grid grid-cols-1 w-3/5">
-            <div v-for="i in $t('roles')" :key="i">
+            <div v-for="role in ['specialist', 'sales']" :key="role">
                 <UCard class="m-5 grow">
                     <template #header>
-                      <div class="flex flex-row w-4/5">
-                        <h1 class="text-primary-600 dark:text-primary-500">{{$t("roles.specialist.title")}}</h1>
+                        <h1 class="text-primary-600 dark:text-primary-500">{{$t(`roles.${role}.title`)}}</h1>
                         <!--
                         <UButton
                             :icon="isEditing ? 'i-heroicons-check-solid' : 'i-heroicons-pencil-square'"
@@ -31,14 +30,13 @@
                             class="flex justify-end">
                         </UButton>
                         -->
-                      </div>
 
-                      <UBadge class="text-gray-500 dark:text-gray-400" :ui="{ rounded: 'rounded-full'}" variant="soft©">{{$t('roles.specialist.timespan')}}</UBadge>
+                      <UBadge class="text-gray-500 dark:text-gray-400" :ui="{ rounded: 'rounded-full' }" variant="soft">{{$t(`roles.${role}.timespan`)}}</UBadge>
                     </template>
 
                     <template class="flex whitespace-pre">
                       <ul>
-                        <li v-for="description in $tm('roles.specialist.descriptions')" :key="description">
+                        <li class="list-disc" v-for="description in $tm(`roles.${role}.descriptions`)" :key="description">
                           {{ $rt(description) }}
                         </li>
                       </ul>

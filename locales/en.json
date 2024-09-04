@@ -2,6 +2,7 @@
   "roles": {
     "specialist": {
       "title": "Specialist",
+      "company": "Apple",
       "descriptions": [
         "Advise our customers on product selection and solve their technical problems",
         "Optimized the team’sWorkflow with an Apple Shortcut",
@@ -9,16 +10,17 @@
         "Pursued additional skills through Coursera courses,e.g. Pricing"
       ],
       "timespan": "02 2024 - today"
+    },
+
+    "sales": {
+      "title": "Seasonal Sales",
+      "company": "Rituals",
+      "descriptions": [
+        "Demonstrated Stress-Resilience during Christmas season at Bahnhofstrasse",
+        "Listened actively to our customers to find the best products",
+        "Occasionally responsible for receiving and storing goods"
+      ],
+      "timespan": "02 2024 - today"
     }
-  },
-  "specialist": {
-    "title": "Specialist",
-    "descriptions": [
-      "Advise our customers on product selection and solve their technical problems",
-      "Optimized the team’sWorkflow with an Apple Shortcut",
-      "Trained new employees,e.g. through role-playing customer scenarios",
-      "Pursued additional skills through Coursera courses,e.g. Pricing"
-    ],
-    "timespan": "02 2024 - today"
   }
 }

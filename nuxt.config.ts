@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
+
   i18n: {
     locales: [
       { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
@@ -22,5 +23,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+
   modules: ["@nuxt/image", "@nuxt/ui", "@nuxtjs/i18n"],
+  compatibilityDate: '2024-09-03',
 })

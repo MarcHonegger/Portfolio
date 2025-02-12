@@ -14,9 +14,10 @@
 <template>
     <ClientOnly>
         <div class="flex justify-end">
-            <UPopover mode="hover" class="w-8 h-8">
-                <UButton icon="i-heroicons-paint-brush-20-solid"/>
+            <UPopover class="w-8 h-8">
+                <UButton icon="i-heroicons-cog-6-tooth-20-solid"/>
                 <template #panel>
+                    <LanguageSwitcher/>
                     <div class="grid grid-cols-3">
                         <UButton
                         class="col-start-2"

@@ -9,7 +9,7 @@
         "Trained new employees,e.g. through role-playing customer scenarios",
         "Pursued additional skills through Coursera courses,e.g. Pricing"
       ],
-      "timespan": "02 2024 - today"
+      "timespan": "02 2024 - today (1 yr 1 mos)"
     },
 
     "sales": {
@@ -20,7 +20,19 @@
         "Listened actively to our customers to find the best products",
         "Occasionally responsible for receiving and storing goods"
       ],
-      "timespan": "02 2024 - today"
+      "timespan": "11 2023 - 12 2024 (2 mos)"
+    },
+
+    "barista": {
+      "title": "Barista",
+      "company": "Loving Lanka",
+      "descriptions": [
+        "Demonstrated Stress-Resilience during Christmas season at Bahnhofstrasse",
+        "Listened actively to our customers to find the best products",
+        "Occasionally responsible for receiving and storing goods"
+      ],
+      "timespan": "08 2022 - 05 2024 (1 yr 10 mos)"
     }
   }
+
 }

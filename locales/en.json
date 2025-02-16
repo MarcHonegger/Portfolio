@@ -3,6 +3,7 @@
     "specialist": {
       "title": "Specialist",
       "company": "Apple",
+      "type": "Work",
       "descriptions": [
         "Advise our customers on product selection and solve their technical problems",
         "Optimized the team’sWorkflow with an Apple Shortcut",
@@ -15,6 +16,7 @@
     "sales": {
       "title": "Seasonal Sales",
       "company": "Rituals",
+      "type": "Work",
       "descriptions": [
         "Demonstrated Stress-Resilience during Christmas season at Bahnhofstrasse",
         "Listened actively to our customers to find the best products",
@@ -26,6 +28,7 @@
     "barista": {
       "title": "Barista",
       "company": "Loving Lanka",
+      "type": "Work",
       "descriptions": [
         "Demonstrated Stress-Resilience during Christmas season at Bahnhofstrasse",
         "Listened actively to our customers to find the best products",

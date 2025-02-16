@@ -8,20 +8,35 @@ const colorMode = useColorMode()
 // }
 
 const visibleDescriptions = ref({});
+const visibleRoleTypes = ref({});
 
 const toggleDescription = (role) => {
   visibleDescriptions.value[role] = !visibleDescriptions.value[role];
 };
 
+const toggleRoleType = (roleType) => {
+  if(visibleRoleTypes.value[roleType]) {
+    // TODO Routing to WVPE
+  }
+  visibleRoleTypes.value[roleType] = !visibleRoleTypes.value[roleType];
+};
+
+const TypeOfWork = [
+  'Work', 'Volunteering', 'Projects', 'Education'
+];
+
 </script>
 
 <template>
-  <div class="flex justify-center">
+  <div class="flex justify-center gap-2 mt-5">
+    <UButton v-for="type in TypeOfWork" :key="type" @click="toggleRoleType(type)" :class="!visibleRoleTypes[type] ? 'bg-primary-500 text-white dark:bg-gray-800 dark:text-primary-500' : 'bg-white text-primary-500 dark:bg-primary-500 dark:text-white'" class="rounded-full" variant="soft">
+      {{ type }}
+    </UButton>
   </div>
   <div class="flex w-screen justify-center">
     <div class="grid grid-cols-1 md:w-3/5 sm:w-4/5 w-11/12">
       <div v-for="role in ['specialist', 'sales', 'barista']" :key="role">
-        <UCard class="m-5 grow shadow-primary shadow-md hover:shadow-lg hover:shadow-primary hover:scale-105 transition-all duration-300 delay-50" @click="toggleDescription(role)">
+        <UCard v-if="!visibleRoleTypes[$t(`roles.${role}.type`)]" class="m-5 grow shadow-primary shadow-md hover:shadow-lg hover:shadow-primary hover:scale-105 transition-all duration-300 delay-50" @click="toggleDescription(role)">
           <template #header>
             <div class="md:flex md:flex-row sm:flex-col justify-between">
               <div class="flex flex-col gap-0">

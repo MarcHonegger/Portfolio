@@ -1,13 +1,13 @@
 <template>
-  <div class="language-switcher p-1">
+  <div class="language-switcher">
     <NuxtLink
         v-for="locale in availableLocales"
         :key="locale.code"
         :to="switchLocalePath(locale.code)"
         :class="{ active: currentLocale === locale.code }"
-        class="m-0.5"
     >
-      {{ locale.name }}
+      <NuxtImg v-if="locale.code === 'de'" src="https://flagcdn.com/w40/de.png" alt="Deutsch" class="w-6 h-4" />
+      <NuxtImg v-if="locale.code === 'en'" src="https://flagcdn.com/w40/us.png" alt="English" class="w-6 h-4" />
     </NuxtLink>
   </div>
 </template>

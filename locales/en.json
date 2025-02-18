@@ -1,41 +1,168 @@
 {
   "roles": {
+    "university": {
+      "title": "Bachelor of Science - Business Informatics",
+      "company": "University of Zurich",
+      "type": "Education",
+      "descriptions": [
+        "I learn both business administration and computer science",
+        "I learned to anaylize graphics, program small scripts in Python, basics about marketing and more",
+        "I've passed 24 credits with an average of 5.15"
+      ],
+      "timespan": "Aug 2024 - Jul 2027"
+  },
+    "technical_specialist": {
+      "title": "Technical Specialist",
+      "company": "Apple",
+      "type": "Work",
+      "descriptions": [
+        "I helped customers with troubleshooting and technical support on mobile devices such as iPhone, iPad, and Apple Watch",
+        "I provided expert advice on Apple products & supported our sales team if needed",
+        "Every now and then I was able to support customers as their first point of contact as On-Point (\"Receptionist\")"
+      ],
+      "timespan": "Oct 2024 - February 2025 (5 mos)"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "company": "Home",
+      "type": "Programming",
+      "descriptions": [
+        "I used NuxtJS to create a website for myself and learn more about web development",
+        "I used Bun as interpreter instead of NPM for fun",
+        "I used TailwindCSS to style my website and make it responsive"
+      ],
+      "link": "https://github.com/MarcHonegger/Portfolio",
+      "timespan": "Deployed Feb 2025"
+    },
+    "tool_for_chess_club": {
+      "title": "Calculator for Tournament Results",
+      "company": "Chess Club",
+      "type": "Programming",
+      "descriptions": [
+        "Programmed a tool in Python that calculates the results of our chess tournaments over multiple rounds",
+        "The tool uses Pandas to create data analyses and create csv files for sharing"
+      ],
+      "link": "https://github.com/MarcHonegger/CM_Tool",
+      "timespan": "Deployed December 2024"
+    },
+    "mentor": {
+      "title": "Mentor",
+      "company": "ROCK YOUR LIFE! Switzerland",
+      "type": "Volunteering",
+      "descriptions": [
+        "I supported two 13-year old students against academic problems and the search for a follow-up solution such as an apprenticeship",
+        "We participated in events teaching growth, strengths & weaknesses and goal setting",
+        "We managed communication & motivation problems; sometimes with the help of my leader"
+      ],
+      "timespan": "Feb 2024 - January 2025 (11 mo)"
+    },
+    "AoC24": {
+      "title": "Advent of Code 2024",
+      "company": "Home",
+      "type": "Programming",
+      "descriptions": [
+        "Programmed solutions for the Advent of Code 2024 in Python",
+        "I finished the first 12 days of the challenge (university exam were at some point more important)"
+      ],
+      "link": "https://github.com/MarcHonegger/CM_Tool",
+      "timespan": "Deployed December 2024"
+    },
     "specialist": {
       "title": "Specialist",
       "company": "Apple",
       "type": "Work",
       "descriptions": [
-        "Advise our customers on product selection and solve their technical problems",
-        "Optimized the team’sWorkflow with an Apple Shortcut",
-        "Trained new employees,e.g. through role-playing customer scenarios",
-        "Pursued additional skills through Coursera courses,e.g. Pricing"
+        "I presented Apple products to customers and assisted with minor technical issues",
+        "I gained deep knowledge of Apple products, software, and customer interactions",
+        "Occasionally responsible for counting our goods or bring them to our product zone",
+        "I created a shortcut that helped our employees to track their shift changes and breaks with automatic creation of alarms",
+        "I was here and there the phone support of our store"
       ],
-      "timespan": "02 2024 - today (1 yr 1 mos)"
+      "timespan": "Feb 2024 - Oct 2024 (9 mos)"
     },
-
+    "pricing_strategy": {
+      "title": "Certification: Pricing Strategy",
+      "company": "IE Business School",
+      "type": "Certification",
+      "descriptions": [
+        "Learned principles of pricing optimization and analysis",
+        "Understanding of discounts and how prices are set for products",
+        "Understanding the importance of prices for a company"
+      ],
+      "timespan": "Issued Aug 2024",
+      "credential_link": "https://www.coursera.org/account/accomplishments/verify/PKA4L63II36O"
+    },
+    "growth_mindset": {
+      "title": "Certification: The Growth Mindset",
+      "company": "University of California, Davis",
+      "type": "Certification",
+      "descriptions": [
+        "Developed an understanding of the psychology behind learning and growth",
+        "Learned the importance of an open mindset and the will to change"
+      ],
+      "timespan": "Issued Aug 2024",
+      "credential_link": "https://www.coursera.org/account/accomplishments/verify/WX2TSEMMM34G"
+    },
     "sales": {
       "title": "Seasonal Sales",
       "company": "Rituals",
       "type": "Work",
       "descriptions": [
         "Demonstrated Stress-Resilience during Christmas season at Bahnhofstrasse",
-        "Listened actively to our customers to find the best products",
-        "Occasionally responsible for receiving and storing goods"
+        "Listened actively to our customers to find the best products for them or their loved ones",
+        "Occasionally responsible for receiving and storing goods together with our logistics employee"
       ],
-      "timespan": "11 2023 - 12 2024 (2 mos)"
+      "timespan": "Nov 2023 - Dec 2023 (2 mos)"
     },
-
     "barista": {
       "title": "Barista",
-      "company": "Loving Lanka",
+      "company": "Starterei Gmbh",
       "type": "Work",
       "descriptions": [
-        "Demonstrated Stress-Resilience during Christmas season at Bahnhofstrasse",
-        "Listened actively to our customers to find the best products",
-        "Occasionally responsible for receiving and storing goods"
+        "Gained experience working long shifts and staying happy & friendly",
+        "Often responsible alone for the coffee machine, the cash register, and our curries from Sri Lanka at lunch",
+        "Responsible for opening and closing of the shop and checking hygiene regulations such as temperature",
+        "I helped a few times at festivals and events in our high paced food truck our christmas market"
       ],
-      "timespan": "08 2022 - 05 2024 (1 yr 10 mos)"
+      "timespan": "Sep 2022 - Nov 2023 (1 yr 3 mos)"
+    },
+    "high_school": {
+      "title": "Matura",
+      "company": "Kantonschule Zürcher Oberland",
+      "type": "Education",
+      "descriptions": [
+        "Focused on applied mathematics and physics",
+        "finished with an average of 4.46"
+      ],
+      "timespan": "2016 - Jul 2023"
+    },
+    "matura_work": {
+      "title": "Laneclash (Matura Paper)",
+      "company": "Kantonschule Zürcher Oberland",
+      "type": "Programming",
+      "descriptions": [
+        "Programmed a game in Unity with C# together with a friend",
+        "We used Jira to document our progress and goals. We also tracked our invested time directly in Jira.",
+        "Finished with a 6.0 in organization, content and presentation"
+      ],
+      "link": "https://github.com/MarcHonegger/Maturarbeit",
+      "timespan": "Jan 2023 - Jan 2024 (1 year)"
+    },
+    "festival_worker": {
+      "title": "Seasonal Worker",
+      "company": "ZO Festival AG - ZÜRICH OPENAIR",
+      "type": "Work",
+      "descriptions": [
+        "Ensured a consistent supply chain",
+        "Adapted to working long shifts, sometimes during nighttime"
+      ],
+      "timespan": "Aug 2022 - Aug 2022 (1 mo)"
     }
-  }
-
+  },
+    "me": {
+      "greeting": "Hey, I am Marc!",
+      "education": "I am currently a student at the University of Zurich and I love to work with computers and technology. I had different jobs from working in a café to working at Apple as a technical specialist. I enjoyed every one of them and I am looking forward to a challenging future!",
+      "recreation": "I have and had a lot of interests in my life. Everything from soccer to magic to chess. But creativity and creating things always stayed with me, no matter what I did. I love to program games, I had fun programming this website and I love to draw!",
+      "culture": "I love Switzerland for so many things \uD83E\uDDC0 \uD83C\uDF6B \uD83D\uDE86... yet I have fallen in love with Japan and South Korea. I am learning Japanese and I can read the korean writing."
+    }
 }

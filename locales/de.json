@@ -1,38 +1,146 @@
 {
   "roles": {
+    "university": {
+      "title": "Bachelor of Science - Wirtschaftsinformatik",
+      "company": "Universität Zürich",
+      "type": "Education",
+      "descriptions": [
+        "Ich lerne sowohl Betriebswirtschaft als auch Informatik",
+        "Ich habe gelernt, Grafiken zu analysieren, kleine Skripte in Python zu programmieren, Grundlagen des Marketings und mehr",
+        "Ich habe 24 Credits mit einem Durchschnitt von 5.15 bestanden"
+      ],
+      "timespan": "Aug 2024 - Jul 2027"
+    },
+    "technical_specialist": {
+      "title": "Technical Specialist",
+      "company": "Apple",
+      "type": "Work",
+      "descriptions": [
+        "Ich half Kunden bei der Fehlerbehebung und technischen Unterstützung für mobile Geräte wie iPhone, iPad und Apple Watch",
+        "Ich gab Expertenberatung zu Apple-Produkten und unterstützte unser Verkaufsteam bei Bedarf",
+        "Hin und wieder war ich als Empfangsmitarbeiter (\"On-Point\") der erste Ansprechpartner für Kunden"
+      ],
+      "timespan": "Okt 2024 - Feb 2025 (5 Monate)"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "company": "Zuhause",
+      "type": "Programming",
+      "descriptions": [
+        "Ich habe mit NuxtJS eine Website für mich selbst erstellt, um mehr über Webentwicklung zu lernen",
+        "Ich habe Bun als Interpreter anstelle von NPM verwendet – einfach aus Spass",
+        "Ich habe TailwindCSS genutzt, um meine Website zu gestalten und responsiv zu machen"
+      ],
+      "link": "https://github.com/MarcHonegger/Portfolio",
+      "timespan": "Veröffentlicht Feb 2025"
+    },
+    "tool_for_chess_club": {
+      "title": "Rechner für Turnierergebnisse",
+      "company": "Schachclub",
+      "type": "Programming",
+      "descriptions": [
+        "Ich habe ein Tool in Python programmiert, das die Ergebnisse unserer Schachturniere über mehrere Runden berechnet",
+        "Das Tool nutzt Pandas zur Datenanalyse und zur Erstellung von CSV-Dateien zum Teilen"
+      ],
+      "link": "https://github.com/MarcHonegger/CM_Tool",
+      "timespan": "Veröffentlicht Dez 2024"
+    },
+    "mentor": {
+      "title": "Mentor",
+      "company": "ROCK YOUR LIFE! Schweiz",
+      "type": "Volunteering",
+      "descriptions": [
+        "Ich habe zwei 13-jährige Schüler bei schulischen Problemen und der Suche nach einer Anschlusslösung wie einer Ausbildung unterstützt",
+        "Wir haben an Veranstaltungen zu den Themen Wachstum, Stärken & Schwächen sowie Zielsetzung teilgenommen",
+        "Wir haben Kommunikations- und Motivationsprobleme bewältigt, manchmal mit Hilfe meines Leiters"
+      ],
+      "timespan": "Feb 2024 - Jan 2025 (11 Monate)"
+    },
+    "AoC24": {
+      "title": "Advent of Code 2024",
+      "company": "Zuhause",
+      "type": "Programming",
+      "descriptions": [
+        "Ich habe Lösungen für den Advent of Code 2024 in Python programmiert",
+        "Ich habe die ersten 12 Tage der Challenge abgeschlossen (die Uni-Prüfungen hatten irgendwann Vorrang)"
+      ],
+      "link": "https://github.com/MarcHonegger/CM_Tool",
+      "timespan": "Veröffentlicht Dez 2024"
+    },
     "specialist": {
       "title": "Specialist",
       "company": "Apple",
+      "type": "Work",
       "descriptions": [
-        "Advise our customers on product selection and solve their technical problems",
-        "Optimized the team’sWorkflow with an Apple Shortcut",
-        "Trained new employees,e.g. through role-playing customer scenarios",
-        "Pursued additional skills through Coursera courses,e.g. Pricing"
+        "Ich habe Apple-Produkte präsentiert und Kunden bei kleineren technischen Problemen unterstützt",
+        "Ich habe tiefgehende Kenntnisse über Apple-Produkte, Software und Kundeninteraktionen erworben",
+        "Gelegentlich war ich für das Zählen und Platzieren von Waren in unserer Produktzone verantwortlich",
+        "Ich habe eine Kurzbefehls-Automation erstellt, die unseren Mitarbeitern half, ihre Schichtwechsel und Pausen zu verfolgen",
+        "Ich war hin und wieder für die telefonische Unterstützung unseres Stores zuständig"
       ],
-      "timespan": "02 2024 - today (1 yr 1 mos)"
+      "timespan": "Feb 2024 - Okt 2024 (9 Monate)"
     },
-
+    "pricing_strategy": {
+      "title": "Zertifizierung: Preisstrategie",
+      "company": "IE Business School",
+      "type": "Certification",
+      "descriptions": [
+        "Ich habe Prinzipien der Preisoptimierung und -analyse gelernt",
+        "Verständnis für Rabatte und die Preisgestaltung von Produkten",
+        "Verständnis für die Bedeutung von Preisen für ein Unternehmen"
+      ],
+      "timespan": "Ausgestellt Aug 2024",
+      "credential_link": "https://www.coursera.org/account/accomplishments/verify/PKA4L63II36O"
+    },
+    "growth_mindset": {
+      "title": "Zertifizierung: Growth Mindset",
+      "company": "University of California, Davis",
+      "type": "Certification",
+      "descriptions": [
+        "Ich habe ein Verständnis für die Psychologie hinter Lernen und Wachstum entwickelt",
+        "Ich habe die Bedeutung einer offenen Denkweise und der Bereitschaft zur Veränderung gelernt"
+      ],
+      "timespan": "Ausgestellt Aug 2024",
+      "credential_link": "https://www.coursera.org/account/accomplishments/verify/WX2TSEMMM34G"
+    },
     "sales": {
-      "title": "Weihnachtsaushilfe",
+      "title": "Saisonaler Verkauf",
       "company": "Rituals",
+      "type": "Work",
       "descriptions": [
-        "Demonstrated Stress-Resilience during Christmas season at Bahnhofstrasse",
-        "Listened actively to our customers to find the best products",
-        "Occasionally responsible for receiving and storing goods"
+        "Ich habe während der Weihnachtszeit an der Bahnhofstrasse Stressresistenz bewiesen",
+        "Ich habe Kunden aktiv zugehört, um die besten Produkte für sie oder ihre Liebsten zu finden",
+        "Gelegentlich war ich für den Wareneingang und die Lagerung zusammen mit unserem Logistikmitarbeiter verantwortlich"
       ],
-      "timespan": "11 2023 - 12 2024 (2 mos)"
+      "timespan": "Nov 2023 - Dez 2023 (2 Monate)"
     },
-
     "barista": {
       "title": "Barista",
-      "company": "Loving Lanka",
+      "company": "Starterei GmbH",
+      "type": "Work",
       "descriptions": [
-        "Demonstrated Stress-Resilience during Christmas season at Bahnhofstrasse",
-        "Listened actively to our customers to find the best products",
-        "Occasionally responsible for receiving and storing goods"
+        "Ich habe gelernt, lange Schichten zu arbeiten und dabei freundlich und motiviert zu bleiben",
+        "Ich war oft allein für die Kaffeemaschine, die Kasse und unsere srilankischen Currys zur Mittagszeit verantwortlich",
+        "Ich war für das Öffnen und Schliessen des Ladens sowie die Einhaltung von Hygieneregeln zuständig",
+        "Ich habe ein paar Mal auf Festivals und Veranstaltungen in unserem Foodtruck oder auf dem Weihnachtsmarkt geholfen"
       ],
-      "timespan": "08 2022 - 05 2024 (1 yr 10 mos)"
+      "timespan": "Sep 2022 - Nov 2023 (1 Jahr 3 Monate)"
+    },
+    "high_school": {
+      "title": "Matura",
+      "company": "Kantonschule Zürcher Oberland",
+      "type": "Education",
+      "descriptions": [
+        "Schwerpunkt auf angewandter Mathematik und Physik",
+        "Abschluss mit einem Durchschnitt von 4.46"
+      ],
+      "timespan": "2016 - Jul 2023"
     }
+  },
+  "me": {
+    "greeting": "Hey, ich bin Marc!",
+    "education": "Ich bin derzeit Student an der Universität Zürich und liebe es, mit Computern und Technik zu arbeiten. Ich hatte verschiedene Jobs, von der Arbeit in einem Café bis zur Arbeit bei Apple als Technical Specialist. Ich habe jeden einzelnen von ihnen genossen und freue mich auf eine herausfordernde Zukunft!",
+    "recreation": "Ich habe und hatte viele Interessen in meinem Leben. Alles von Fußball über Magie bis hin zu Schach. Aber die Kreativität und das Erschaffen von Dingen hat mich immer begleitet, egal was ich gemacht habe. Ich liebe es, Spiele zu programmieren, ich hatte Spaß beim Programmieren dieser Website und ich liebe es zu zeichnen!",
+    "culture": "Ich liebe die Schweiz für so viele Dinge \uD83E\uDDC0 \uD83C\uDF6B \uD83D\uDE86... doch ich habe mich in Japan und Südkorea verliebt. Ich lerne Japanisch und ich kann die koreanische Schrift lesen."
   }
-
 }
